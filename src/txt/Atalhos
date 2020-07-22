@@ -1,0 +1,22 @@
+main + ctrl espaço  	public static void main(String[] args) {
+syso +_ctrl espaco      System.out.println();
+
+
+ctrl + M maximiza e minimiza a area de codigo
+ctrl + shift + F organizar codigo
+ctrl + shift + O organizar imports
+ctrl + shift + f8 trocar perspectiva pro debug
+ctrl + shift + f7 trocar janela pro console, debug, pckg explorer
+ctrl + shift + L abre todas os atalhos do eclipse
+shift + alt + a  Seleciona multiplas linhas	
+
+
+usando "final" antes da variavel, define a variavel como constante, imutavel, sempre usar letra maiuscula para CONSTANTES
+
+sentença de codigo terminada em ;
+bloco de sentenças terminado em {}
+	
+	
+	
+
+\\wsl$\Ubuntu\home\victor-frts\jdk-14.0.1-14.0.1\usr\java\jdk-14.0.1\bin
