@@ -1,0 +1,89 @@
+
+Numericos
+
+BYTE       1byte = -128 até +127
+SHORT      2byte = +- 32767
+INT        4byte = +- 200000
+LONG       8byte = +- 200000000000
+DOUBLE     4byte 
+FLOAT      8byte
+
+1byte = 8bits  bit = 0 ou 1
+
+
+CHAR = caracter
+BOOLEAN = true or false
+
+
+//	%s – formats strings
+//	%d – formats decimal integers
+//	%f – formats the floating-point numbers
+//	%t– formats date/time values
+
+
+
+		for (;n1 > num; contagem--) {
+			System.out.printf("O numero %d é < que o  segredo, tente outro numero", num);
+			System.out.printf("Você tem %d tentativas", contagem);
+			for (;n1 < num;contagem--) {
+				System.out.printf("O numero %d é > que o segredo, tente outro numero", num);
+				System.out.printf("Você tem %d tentativas", contagem);
+				in.close();
+				}
+			for(;n1 == num;) {
+				System.out.println("Parabéns!!!Você conseguiu o numero era o "+ num);
+				break;
+				
+				
+						while (n1 > num || contagem == 0) {
+				System.out.printf("O numero %d é < que o  segredo, tente outro numero", num);
+				contagem--;
+				System.out.printf("\nVocê tem %d tentativas ", contagem);
+				System.out.println("\nDigite outro numero: ");
+				num = in.nextInt();
+				if (n1 == num) {
+					System.out.println("Parabens!Você acertou");
+					break;
+			}
+				if (contagem == 0) {
+					System.out.println("Fim");
+					break;
+				}
+		}
+
+		while (n1 < num || contagem == 0) {
+			System.out.printf("\nO numero %d é > que o segredo, tente outro numero", num);
+			System.out.printf("\nVocê tem %d tentativas", contagem);
+			System.out.print("\nDigite outro numero: ");
+			num = in.nextInt();
+			if (contagem == 0) {
+				break;
+			}
+			
+			
+			
+			
+			
+			for (; n1 > num && contagem > 0; ) {
+			System.out.println("O numero "+num+" é > ");
+			contagem--;
+			System.out.printf("Você tem %d tentativas. \nDigite outro numero", contagem);
+			num = in.nextInt();
+
+			if(n1==num) { 
+				System.out.println("Venceu!!!");
+				continue;
+			}
+			}
+			for(;n1 < num && contagem >0;) {
+				System.out.println("O numero "+num+ " é < ");
+				contagem--;
+				System.out.printf("Você tem %d tentativas. \nDigite outro numero", contagem);
+				num = in.nextInt();
+				if(contagem==0) {
+					System.out.println("Você Perdeu");
+					break;
+				}
+			
+			
+				
